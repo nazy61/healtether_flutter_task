@@ -1,16 +1,48 @@
-# healtether_flutter_task
+# HealTether Flutter Task
 
-A new Flutter project.
+## Overview
 
-## Getting Started
+This Flutter application fetches user data from a remote API and displays it in a list. It implements basic state management and handles loading, data, and error states.
 
-This project is a starting point for a Flutter application.
+## Features
 
-A few resources to get you started if this is your first Flutter project:
+- Fetches user data from the API: https://jsonplaceholder.typicode.com/users
+- Displays user names, emails, and avatars in a ListView.
+- Handles loading, error, and data states using Provider/Riverpod.
+- Pull-to-refresh functionality.
+- Search functionality to filter users by name.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Feedback
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+To run the project, ensure you have the following installed:
+
+- Flutter SDK: Install Flutter (version 3.0 or higher is recommended).
+- Android Studio/VS Code (or any IDE with Flutter/Dart plugins).
+- Android Emulator or physical device connected for testing.
+
+## Deployment
+
+- Clone the Repository
+
+```bash
+  git clone https://github.com/nazy61/healtether_flutter_task
+  cd healtether_flutter_task
+```
+
+- Install Dependencies: Run the following command to install the required Dart and Flutter packages:
+
+```bash
+  flutter pub get
+```
+
+- Run the Application: Connect your emulator or physical device and run the following command:
+
+```bash
+  flutter run
+```
+
+- Building APK (Optional): To generate a release APK for testing on a physical Android device, use:
+
+```bash
+  flutter build apk --release
+```
