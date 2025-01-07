@@ -12,7 +12,7 @@ This Flutter application fetches user data from a remote API and displays it in 
 - Pull-to-refresh functionality.
 - Search functionality to filter users by name.
 
-## Feedback
+## Pre-requisites
 
 To run the project, ensure you have the following installed:
 
@@ -20,7 +20,7 @@ To run the project, ensure you have the following installed:
 - Android Studio/VS Code (or any IDE with Flutter/Dart plugins).
 - Android Emulator or physical device connected for testing.
 
-## Deployment
+## How to run the code
 
 - Clone the Repository
 
